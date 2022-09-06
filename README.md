@@ -51,6 +51,8 @@ MAIL_PASSWORD={yourGmailAppPassword}
 DISTRIBUTION_LIST={anotherEmailAccount}
 ```
 
+**Note**: As the alerts email service is Gmail, a [Gmail App Password](https://support.google.com/accounts/answer/185833) is required for the SMTP authentication.
+
 Build the services docker images for `blog`, `store` and `gateway` with the following command:
 
 ```bash
